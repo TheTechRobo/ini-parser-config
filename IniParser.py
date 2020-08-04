@@ -1,8 +1,7 @@
 import configparser
 config = configparser.ConfigParser()
-config.sections()
 config.read('config.ini')
-config.sections()
-print(config['DEFAULT']['Number'])
-DEFAULT = config['DEFAULT']
+print(config.sections())
+print(config['Main']['Number'])
+DEFAULT = config['Main']
 print(DEFAULT.get("ForwardGO"))

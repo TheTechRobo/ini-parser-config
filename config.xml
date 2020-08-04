@@ -1,4 +1,4 @@
-<config>
+<config program="Example">
 <section title="Main">
 <number>5</number>
 <compression>true</compression>
